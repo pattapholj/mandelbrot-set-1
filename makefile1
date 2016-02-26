@@ -1,0 +1,7 @@
+CC=mpicc
+
+a.out: pro2b.c
+	$(CC) pro2b.c -o out2
+
+clean:
+	@rm -f *.o *.out out2
